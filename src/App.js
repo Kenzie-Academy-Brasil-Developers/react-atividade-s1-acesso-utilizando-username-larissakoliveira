@@ -17,6 +17,7 @@ isLoggedIn ?
 (<WelcomePage user = {user} setIsLoggedIn = {setIsLoggedIn}/>)
 :
 (<GetUserComponent setUser = {setUser} SetIsLoggedIn = {setIsLoggedIn}/>)
+
 }
 </div>
 </div>

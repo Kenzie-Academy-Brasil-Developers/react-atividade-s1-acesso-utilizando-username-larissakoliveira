@@ -14,7 +14,7 @@ const GetUserComponent = ({setUser, SetIsLoggedIn})=>{
 
         <form>
             <input type="text" value={userInput} onChange={(event) => setUserInput(event.target.value)} />
-            <button onClick={() => HandleLogin(userInput)}>Acessar com o nome</button>
+            <button onClick={HandleLogin}>Acessar com o nome</button>
         </form>
 
     )
